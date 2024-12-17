@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .product-management-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-management-container h2 {
+    margin-bottom: 20px;
+    color: #333333;
+  }
+  
+  .product-management-container nav a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .product-management-container nav a:hover {
+    text-decoration: underline;
+  }
+  
+  .add-product-card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+
+  .add-product-card form div {
+    margin-bottom: 15px;
+  }
+  
+  .add-product-card input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #ffffff;
+  }
+  
+  .add-product-card button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .add-product-card button:hover {
+    background-color: #0056b3;
+  }
+
+  .product-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .product-table th, .product-table td {
+    border: 1px solid #ccc;
+    text-align: left;
+    padding: 10px;
+  }
+  
+  .product-table th {
+    background-color: red;
+    font-weight: bold;
+  }
+  
+  .product-table button {
+    padding: 5px 10px;
+    margin-right: 5px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .product-table button:hover {
+    background-color: #0056b3;
+  }
+  
+  .product-table button:nth-child(2) {
+    background-color: #dc3545;
+  }
+  
+  .product-table button:nth-child(2):hover {
+    background-color: #a71d2a;
+  }
+
+nav {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  background-color: #333;
+  padding: 10px 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 16px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+nav {
+  width: 100%;
+}
+
+  
